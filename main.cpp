@@ -2,12 +2,13 @@
 #include <SPI.h> //WI-FI
 #include <ESP_Mail_Client.h>
 #include <Client.h>
-#include <DHT.h>   //
+#include <DHT.h>    //
 #include <DHT_U.h> //sensor
 #include <time.h>
 #include <TimeLib.h>
-char ssid[] = "internet";
-char pass[] = "12345678";
+
+char ssid[] = "YOUR_internet_name";
+char pass[] = "YOUR_pass";
 
 #define DHTPIN 2      // pinMode()
 #define DHTTYPE DHT11 // sensor type
